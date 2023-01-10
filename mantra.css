@@ -1,0 +1,966 @@
+ /*--- clear.css ---*/
+.color1,.color1-light,.color2,.color2-light{background-color:#ffff}.pull-right{float:right!important}.pull-left{float:left!important}.clear{clear:both}.cover-image-intro{margin:0 0 0 1em;width:100px;box-shadow:1px 1px 12px #ccc;border:1px solid #eee}.color-box{display:block;width:60px;height:40px;float:left;margin-right:5px}body{display:inline!important}.color-grey-light{background-color:#eeeeee}
+
+ body {
+     margin: 0;
+     padding: 0;
+     background-color: transparent;
+     background-image: none;
+     font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+     font-weight: normal;
+     font-size: 12px;
+     display: none;
+     color: #222
+ }
+
+ a:link,
+ a:visited,
+ a:active {
+     color: SteelBlue;
+     text-decoration: none
+ }
+
+ a:hover {
+     color: SteelBlue;
+     background: none;
+     text-decoration: underline
+ }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-family: 'Pathway Gothic One', "Times New Roman", Times, serif!important;
+     color: #000;
+     font-weight: normal;
+     text-align: left
+ }
+
+ h1 {
+     font-size: 3em;
+     font-weight: normal
+ }
+
+ h2 {
+     font-size: 2em;
+     font-weight: normal
+ }
+
+ h3 {
+     font-size: 1.8em;
+     font-weight: normal
+ }
+
+ h4 {
+     font-size: 1.6em;
+     font-weight: normal
+ }
+
+ h5 {
+     font-size: 1em;
+     font-weight: normal
+ }
+
+ h6 {
+     font-size: .85em;
+     font-weight: normal
+ }
+
+ #container {
+     margin: 0 auto;
+     padding: 0;
+     background-color: #ccc;
+     background-image: url(https://anwardani.github.io/css-ojs2/imgs/noisy_grid.png);
+     width: auto;
+     min-width: 730px;
+     text-align: center;
+     display: inline-block
+ }
+
+ #header {
+     margin: 0;
+     padding: 0;
+     background-color: transparent;
+     background-image: url(https://anwardani.github.io/css-ojs2/imgs/noisy_grid.png);
+     min-height: 150px
+ }
+
+ #headerTitle {
+     width: 1080px;
+     margin: 0 auto;
+     display: inline-block
+ }
+
+ #header h1 {
+     font-family: Teko, verdana, Georgia, "Times New Roman", Times, serif!important;
+     font-weight: 200!important;
+     text-transform: none;
+     font-size: 3.2em;
+     letter-spacing: 0;
+     color: #111;
+     text-shadow: 1px 1px #fff;
+     padding: 0!important;
+     line-height: 150px;
+     margin-top: -13.33333333px
+ }
+
+ #headerTitle img {
+     float: left;
+     display: inline-block;
+     margin-top: 13.33333333px;
+     margin-bottom: 0px;
+     max-width: 1080px;
+     height: auto
+ }
+
+ #body {
+     margin: -40px auto 12px auto;
+     padding: 0 0 24px 0;
+     background-color: #fff;
+     background-image: none;
+     width: 1080px!important;
+     display: inline-block;
+     height: auto
+ }
+
+ #main {
+     margin: 0;
+     padding: 0;
+     background-color: transparent;
+     background-image: none;
+     display: inline;
+     float: left;
+     position: relative;
+     width: 874px;
+     overflow: visible!important
+ }
+
+ #content {
+     border-top: 0 dotted #000;
+     font-size: 1em
+ }
+
+ #navbar {
+     margin: 0 0 12px 0;
+     padding: 0;
+     background-color: SteelBlue;
+     background-image: none;
+     clear: both;
+     text-align: center;
+     border: 0;
+     height: 40px;
+     width: 1080px
+ }
+
+ #navbar ul {
+     margin: 0;
+     padding: 0;
+     display: inline-block
+ }
+
+ #navbar ul li {
+     margin: 0;
+     padding: 0;
+     float: left
+ }
+
+ #navbar a,
+ #navbar a:link,
+ #navbar a:visited {
+     font-family: 'Pathway Gothic One', "Times New Roman", Times, serif;
+     font-weight: 400;
+     font-size: 1.4em!important;
+     text-transform: uppercase;
+     letter-spacing: 0;
+     color: #fff;
+     line-height: 40px;
+     display: inline-block;
+     margin: 0;
+     padding-left: 15px;
+     padding-right: 15px
+ }
+
+ #navbar a:before,
+ #navbar a:after {
+     position: absolute;
+     top: 5px;
+     display: block;
+     height: 30px;
+     width: 1px
+ }
+
+ #navbar a:before {
+     margin-left: -15px;
+     opacity: .15;
+     background: rgba(0, 0, 0, .7);
+     background: linear-gradient(to top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+     background: -moz-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0));
+     background: -o-linear-gradient(top, rgba(0, 0, 0, 0), #000, rgba(0, 0, 0, 0))
+ }
+
+ #navbar a:after {
+     margin-left: -14px;
+     opacity: .35;
+     background: rgba(255, 255, 255, .8);
+     background: linear-gradient(to top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+     background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+     background: -ms-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0));
+     background: -moz-linear-gradient(top, rgba(255, 255, 255, .01), #fff, rgba(255, 255, 255, .01));
+     background: -o-linear-gradient(top, rgba(0, 0, 0, 0), #fff, rgba(0, 0, 0, 0))
+ }
+
+ #navbar li:first-child a:before,
+ #navbar li:first-child a:after {
+     background-color: black;
+     display: none
+ }
+
+ #navbar a:hover {
+     background: #3f75a2;
+     text-shadow: 1px 1px #3f75a2
+ }
+
+ #navbar a:active {
+     background: none;
+     text-decoration: underline
+ }
+
+ ul.sidemenu li:first-child a {
+     border-top: 1px solid #315c80
+ }
+
+ ul.sidemenu {
+     margin-top: -12px;
+     padding-left: 0!important
+ }
+
+ ul.sidemenu.full {
+     margin: -12px -12px 0 -12px
+ }
+
+ ul.sidemenu li:before {
+     display: none
+ }
+
+ ul.sidemenu li {
+     padding: 0
+ }
+
+ ul.sidemenu li a {
+     display: block;
+     padding: .7em 12px .7em 12px;
+     border-bottom: 1px solid #315c80;
+     background-color: #4682b4;
+     text-decoration: none;
+     color: #fff
+ }
+
+ ul.sidemenu li a:hover {
+     background-color: #3a6d98;
+     text-decoration: underline
+ }
+
+ #breadcrumb {
+     margin: 0 12px 1em 12px;
+     padding: .5em 0;
+     background-color: #yellow;
+     background-image: none;
+     font-size: 1em;
+     border-bottom: 1px dotted #333
+ }
+
+ #main>h2,
+ #content {
+     padding-left: 12px;
+     padding-right: 12px
+ }
+
+ #cpr {
+     border: 0 none #fff
+ }
+
+ #leftSidebar,
+ #rightSidebar {
+     margin: 0;
+     padding: 1px 0px 0px 5px;
+     background-color: transparent;
+     background-image: none;
+     font-size: 1em;
+     height: auto;
+     overflow: hidden
+ }
+
+ #leftSidebar {
+     width: 0;
+     display: none;
+     float: left;
+     border-right-width: 1px;
+     border-right-style: solid;
+     border-right-color: #ccc
+ }
+
+ #rightSidebar {
+     width: 205px;
+     float: right;
+     border-left-width: 1px;
+     border-left-style: solid;
+     border-left-color: #ccc
+ }
+
+ #rightSidebar div.block,
+ #leftSidebar div.block {
+     border: 0;
+     padding: 0 0 12px 0;
+     margin-bottom: 12px;
+     color: inherit
+ }
+
+ #leftSidebar div.block span.blockTitle,
+ #rightSidebar div.block span.blockTitle {
+     padding: .5em 1em;
+     margin-bottom: 12px;
+     background: #4682b4 url(https://anwardani.github.io/css-ojs2/imgs/stripes.png);
+     display: block;
+     color: #fff;
+     font-weight: bold;
+     letter-spacing: 0
+ }
+
+ #sidebarDevelopedBy.block,
+ #sidebarHelp.block {
+     border: 1px solid #999!important;
+     border-radius: 4px;
+     padding: .5em 1em!important
+ }
+
+ #sidebarDevelopedBy.block a,
+ #sidebarHelp.block a {
+     text-decoration: none
+ }
+
+ .block p {
+     margin: 0!important;
+     text-align: justify;
+     text-justify: inter-word
+ }
+
+ .block ul {
+     padding-left: 1.2em;
+     list-style: none
+ }
+
+ .block li:before {
+     content: "";
+     border-color: transparent SteelBlue;
+     border-style: solid;
+     border-width: .35em 0 .35em .45em;
+     display: block;
+     height: 0;
+     width: 0;
+     left: -1em;
+     top: .9em;
+     position: relative
+ }
+
+ #sidebarFontSize.block {
+     padding-bottom: 35px!important
+ }
+
+ table.tocArticle:nth-child(odd) tr {
+     background-color: #e5eef5
+ }
+
+ table.tocArticle:nth-child(even) tr {
+     background-color: #f4f4f4
+ }
+
+ table.tocArticle tr:hover {
+     background-color: #ffedcc
+ }
+
+ table.tocArticle td {
+     padding: 5px 10px
+ }
+
+ table.tocArticle a {
+     text-decoration: none
+ }
+
+ .tocTitle {
+     font-weight: bold
+ }
+
+ .tocAuthors {
+     font-style: italic
+ }
+
+ td.tocGalleys {
+     padding-right: 10px
+ }
+
+ #content ul.menu {
+     margin: 0
+ }
+
+ #content ul.menu li {
+     background-image: -webkit-linear-gradient(top, #2651ff 0, #4f72ff 100%);
+     background-image: -o-linear-gradient(top, #2651ff 0, #4f72ff 100%);
+     background-image: linear-gradient(to bottom, #2651ff 0, #4f72ff 100%);
+     background-repeat: repeat-x;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2651ff', endColorstr='#ff4f72ff', GradientType=0);
+     padding: 5px 8px;
+     border-radius: 3px
+ }
+
+ #content ul.menu li:hover,
+ #content ul.menu li.current {
+     background-image: -webkit-linear-gradient(top, #ec790f 0, #f28c31 100%);
+     background-image: -o-linear-gradient(top, #ec790f 0, #f28c31 100%);
+     background-image: linear-gradient(to bottom, #ec790f 0, #f28c31 100%);
+     background-repeat: repeat-x;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec790f', endColorstr='#fff28c31', GradientType=0)
+ }
+
+ #content ul.menu a {
+     color: #fff
+ }
+
+ #content ul.menu a:hover {
+     color: yellow
+ }
+
+ input.textField,
+ select.selectMenu,
+ textarea.textArea,
+ input.uploadField {
+     padding: .3em;
+     background-color: #f1f1f1;
+     border: 1px solid #aaa;
+     color: #444
+ }
+
+ input.textField:focus,
+ select.selectMenu:focus,
+ textarea.textArea:focus,
+ input.uploadField:focus {
+     border: 1px solid SteelBlue
+ }
+
+ input[type=submit],
+ input[type=button] {
+     background-image: -webkit-linear-gradient(top, #ddd 0, #c4c4c4 100%);
+     background-image: -o-linear-gradient(top, #ddd 0, #c4c4c4 100%);
+     background-image: linear-gradient(to bottom, #ddd 0, #c4c4c4 100%);
+     background-repeat: repeat-x;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdddddd', endColorstr='#ffc4c4c4', GradientType=0);
+     -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+     border-radius: 2px;
+     color: #444;
+     text-shadow: 1px 1px #f6f6f6;
+     padding: 3px 5px;
+     text-decoration: none;
+     border: 1px solid #9d9d9d
+ }
+
+ input[type=submit]:hover,
+ input[type=button]:hover {
+     background-image: -webkit-linear-gradient(top, #c4c4c4 0, #aaa 100%);
+     background-image: -o-linear-gradient(top, #c4c4c4 0, #aaa 100%);
+     background-image: linear-gradient(to bottom, #c4c4c4 0, #aaa 100%);
+     background-repeat: repeat-x;
+     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc4c4c4', endColorstr='#ffaaaaaa', GradientType=0);
+     text-decoration: none;
+     cursor: pointer
+ }
+
+ input.defaultButton {
+     color: #2b2b2b;
+     font-weight: bold
+ }
+
+ div.separator {
+     border-bottom: 1px dotted #222
+ }
+
+ .indexers {
+     margin: 10px 0
+ }
+
+ .indexers a {
+     border: 2px solid transparent;
+     padding: 5px 3px;
+     display: inline-block
+ }
+
+ .indexers a:hover {
+     background: 0;
+     border: 2px dotted SteelBlue;
+     opacity: .75;
+     filter: alpha(opacity=75)
+ }
+
+ a img {
+     border: 0
+ }
+
+ div.thickSeparator {
+     margin-bottom: 10px
+ }
+
+ span.highlight {
+     background-color: #f4f4f4
+ }
+
+ .intro {
+     background-color: #f4f4f4;
+     border: 1px dotted Orange;
+     padding: 10px
+ }
+
+ .intro ul {
+     margin: 0;
+     padding-left: 1em
+ }
+
+ .issueCoverImage {
+     border: 1px solid #fff;
+     padding: 0;
+     margin: 0
+ }
+
+ .issueCoverImage img {
+     margin: 1em 2em 1em 0;
+     width: 100px;
+     border: 0 solid #fff;
+     max-width: 500px;
+     height: auto
+ }
+
+ #content h4 a {
+     text-decoration: none
+ }
+
+ #announcements {
+     width: auto
+ }
+
+ #journalDescription {
+     text-align: justify;
+     float: left;
+     width: 68%
+ }
+
+ #homepageImage {
+     float: right;
+     width: 30%;
+     margin-top: -1em;
+     margin-left: 12px;
+     margin-bottom: 25px;
+     text-align: right
+ }
+
+ #homepageImage img {
+     display: inline-block;
+     max-width: 100%;
+     max-height: auto
+ }
+
+ #announcementsHome,
+ .clear {
+     clear: both
+ }
+
+ #setupForm #homepageImage {
+     float: none;
+     width: auto;
+     text-align: left;
+     margin-top: 1em;
+     margin-left: 0
+ }
+
+ #setupForm #journalDescription {
+     float: none
+ }
+
+ #setupForm #homepageImage img,
+ #setupForm #journalThumbnail img {
+     display: inline;
+     margin: 5px 0
+ }
+
+ .selectMenu {
+     margin-right: 2px
+ }
+
+ #poweredby {
+     clear: both;
+     display: block;
+     margin: 0 auto 1em auto;
+     text-align: right;
+     width: 1080px;
+     padding-right: 12px
+ }
+
+.tocAuthors {
+    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/icon-group.png) 1px 2px no-repeat rgba(0, 0, 0, 0);
+    font-style: italic;
+    margin-top: 4px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+}
+
+.tocGalleys .file {
+    color: transparent;
+    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/icon-pdf.png) no-repeat top right;
+    height: 20px;
+    width: 24px;
+    display: inline-block;
+    float: right;
+}
+
+#articleFullText .file {
+    color: transparent;
+    background: url(https://journal.ugm.ac.id/plugins/themes/nusantara2columnsSteelBlue/imgs/icon-pdf.png) no-repeat top right;
+    height: 20px;
+    width: 24px;
+    display: inline-block;
+    float: left;
+}
+
+#articleAbstract div {
+    text-align: justify
+}
+
+#articleCitations div {
+    text-align: justify
+}
+
+#journalTitleAndLogo img,
+#pageHeaderTitle img {
+    width: 100%;
+    height: auto;
+}
+
+#journalThumbnail img,
+#homepageImage img {
+    width: 300px;
+    height: auto;
+}
+
+#journalLogo img,
+#journalLogoImage img {
+    width: 100px;
+    height: auto;
+}
+
+#journalFavicon img {
+    width: 80px;
+    height: auto;
+}
+
+p {
+    text-align: justify
+}
+
+/* ============ TABLET ============ */
+@media (min-width: 768px) {
+    #body {
+        box-sizing: border-box;
+    }
+    #navbar {
+        width: 1080px !important;
+    }
+    #main {
+        width: 865px;
+    }
+ #header {
+    min-height: 0px;
+  }
+}
+
+/* ============ SMARTPHONE ============ */
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+ #header {
+    min-height: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+    #container {
+        min-width:0 !important;
+    }
+    #headerTitle, #headerTitle img {
+        width: 100% !important;
+    }
+    #body {
+        width: 90% !important;
+    }
+    #main {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+    #sidebar {
+        display: none;
+    }
+    #rightSidebar {
+        width: 100%;
+        float: none;
+        box-sizing: border-box;
+    }
+    #breadcrumb {
+        width: 95% !important;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+        padding-bottom: 10px;
+    }
+    #navbar {
+        width: 100% !important;
+        height: auto;
+    }
+    #navbar ul li {
+      border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+    #content {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #journalDescription {
+        width: 100%;
+        float: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    
+    #homepageImage {
+        float: none;
+        text-align: left;
+        width: 90%;
+    }
+
+    #homepageImage img {
+        width: 100%;
+        display: block;
+    }
+
+    #announcementsHome, div.separator, .tocArticle, #pageFooter {
+        width: 100%;
+    }
+    
+    #pageFooter {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    #pageFooter p {
+        text-align: center;
+    }
+
+    /*! responsive-nav.js 1.0.39 by @viljamis */
+
+    .nav-collapse ul {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      display: block;
+      list-style: none;
+    }
+
+    .nav-collapse li {
+      width: 100%;
+      display: block;
+    }
+
+    .js .nav-collapse {
+      clip: rect(0 0 0 0);
+      max-height: 0;
+      position: absolute;
+      display: block;
+      overflow: hidden;
+      zoom: 1;
+    }
+
+    .js.js-nav-active .nav-collapse-0.opened {
+      max-height: 9999px;
+	max-height:inherit !important;
+    }
+
+    .js-nav-active .js .nav-collapse-0.opened { max-height:inherit !important; }
+
+    .nav-toggle, .nav-toggle.active {
+      /*-webkit-tap-highlight-color: rgba(0,0,0,0);*/
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+      padding: 15px;
+      padding-left: 35px;
+      display: block;
+      background: #333 url('imgs/burger-menu.png')no-repeat 15px 17px;
+      color:#fff !important;
+    }
+
+    #navbar a:before {
+        background: transparent;
+    }
+    #navbar a:after {
+        background: transparent;
+    }
+    #announcements {
+        width: 100%;
+    }
+ #header {
+    min-height: 0px;
+  }
+}
+
+/* --------------- */
+
+/* Pengaturan utama teks seluruh halaman */
+
+/* Pengaturan Menu Utama*/
+#navbar{
+	background-color: #006699; /*untuk warna menu bar*/
+	margin: 0px auto 40px auto;
+}
+
+#navbar a, #navbar a:link, #navbar a:visited {
+	color: #f2ff00 !important;
+	/*font-family: 'Merriweather', serif !important;*/
+	/*font-family: 'EB Garamond', serif !important;*/
+	text-transform: none;
+	/*font-size: 1.2em !important;*/
+}
+
+#navbar a:hover {
+	background-color: #ee2200;		/*untuk warna menu bar*/
+}
+
+#link a:active,a:link,a:visited{
+	color:#ff6600;				/*untuk warna tulisan yang berisi link*/
+	text-decoration:none
+}
+
+/* Pengaturan Side Menu yang menggunakan <ul class="sidemenu full"> */
+ul.sidemenu{
+	margin-top: -12px;
+	padding-left: 0px !important;
+}
+
+ul.sidemenu.full{
+	margin: -12px -12px 0 -12px;
+}
+
+ul.sidemenu li:before{
+	display: none;
+}
+
+ul.sidemenu li{
+	padding: 0;
+}
+
+ul.sidemenu li:first-child a{
+	border-top:1px solid #fff;		/*untuk warna pembatas menu paling atas dengan menu nav*/
+}
+
+ul.sidemenu li a{
+	display: block;
+	padding: 0.7em 12px 0.7em 12px;
+	border-bottom: 1px solid #fff;	/*untuk warna garis sidemenu*/
+	background-color: #006699;		/*untuk warna background sidemenu*/
+	text-decoration: none;
+	color: #f2ff00;				/*untuk warna tulisan sidemenu*/
+}
+
+ul.sidemenu li a:hover {
+	background-color: #ee2200;		/*untuk warna sidemenu ketika pointer mouse mengarah ke menu*/
+	text-decoration: underline;
+}
+
+.block li:before {
+  content: "";
+  border-color: transparent #ff6600;		/*untuk warna format bulleting*/
+  border-style: solid;
+  border-width: 0.35em 0 0.35em 0.45em;
+  display: block;
+  height: 0;
+  width: 0;
+  left: -1em;
+  top: 0.9em;
+  position: relative;
+}
+
+/* Pengaturan Title Block bawaan */
+#leftSidebar div.block span.blockTitle, #rightSidebar div.block span.blockTitle {	
+	/*font-family: 'EB Garamond', serif !important;*/
+	background-color: #006699 !important;		/*untuk warna menu block*/
+	color: #f2ff00 !important;
+	box-shadow: 0px 2px 5px -2px rgba(51,51,51,1);
+	text-align: center;
+}
+
+/* Gambar Cover Table of Content*/
+#issueCoverImage img {
+	display: block;
+	border: 0;
+	max-width: 300px;
+	height: auto;
+}
+
+/*Buat kotak Quote yang menggunakan class="intro"*/
+.intro {
+  background-color: #f1faf5;
+  border: 1px dotted SeaGreen;
+  padding-bottom: 6px;
+  padding: 15px;
+  display: inline-block;
+}
+.intro ul {
+  margin: 0;
+  padding-left: 1em;
+}
+.color-box {
+  display: block;
+  width: 60px;
+  height: 40px;
+  float: left;
+  margin-right: 5px;
+}
+.color1 {
+  background-color: Gold;
+}
+.color1-light {
+  background-color: #fffbe5;
+}
+.color2 {
+  background-color: SeaGreen;
+}
+.color2-light {
+  background-color: #f1faf5;
+}
+.color-grey-light {
+  background-color: #f4f4f4;
+}
+#footer-page, #footer-bottom {
+	display:none;
+}
